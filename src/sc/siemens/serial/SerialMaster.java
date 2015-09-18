@@ -20,14 +20,13 @@
  */
 package sc.siemens.serial;
 
-import gnu.io.SerialPort;
-
-import sc.siemens.S7Master;
-import sc.siemens.exception.S7InitException;
-
 import com.serotonin.io.serial.SerialParameters;
 import com.serotonin.io.serial.SerialUtils;
 import com.serotonin.messaging.StreamTransport;
+
+import gnu.io.SerialPort;
+import sc.siemens.S7Master;
+import sc.siemens.exception.S7InitException;
 
 abstract public class SerialMaster extends S7Master {
     

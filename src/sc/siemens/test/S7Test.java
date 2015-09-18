@@ -7,9 +7,9 @@ import sc.siemens.S7Master;
 import sc.siemens.exception.S7InitException;
 import sc.siemens.exception.S7TransportException;
 import sc.siemens.ip.IpParameters;
-import sc.siemens.msg.S7Request;
 import sc.siemens.msg.ReadDBAreaRequest;
 import sc.siemens.msg.ReadResponse;
+import sc.siemens.msg.S7Request;
 import sc.siemens.msg.S7Response;
 
 public class S7Test {

@@ -20,11 +20,6 @@
  */
 package sc.siemens;
 
-// TODO import sc.siemens.base.SlaveAndArea;
-import sc.siemens.code.DataType;
-import sc.siemens.code.MemoryArea;
-import sc.siemens.exception.S7IdException;
-
 public class S7Locator {
 	
     //private final SlaveAndArea slaveAndArea;
@@ -58,7 +53,8 @@ public class S7Locator {
         validate();
     }*/
 
-    private void validate() {
+    @SuppressWarnings("unused")
+	private void validate() {
         /*try {
             ModbusUtils.validateOffset(offset);
             ModbusUtils.validateEndOffset(offset + DataType.getRegisterCount(dataType) - 1);

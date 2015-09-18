@@ -1,10 +1,10 @@
 package sc.siemens.locator;
 
+import com.serotonin.NotImplementedException;
+
 import sc.siemens.base.S7Utils;
 import sc.siemens.code.MemoryArea;
 import sc.siemens.exception.S7IdException;
-
-import com.serotonin.NotImplementedException;
 
 public class BinaryLocator extends BaseLocator<Boolean> {
 	

@@ -29,7 +29,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import org.libnodave.*;
+import org.libnodave.IBH_MPIConnection;
+import org.libnodave.Nodave;
+import org.libnodave.PLCinterface;
 
 public class TestIBH extends Test {
 	Socket sock;
@@ -48,7 +50,7 @@ public class TestIBH extends Test {
 		OutputStream oStream = null;
 		InputStream iStream = null;
 
-		byte[] by;
+		//byte[] by;
 		if (sock != null) {
 			try {
 				oStream = sock.getOutputStream();

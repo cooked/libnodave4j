@@ -50,7 +50,7 @@ public class TestISOTCP243 {
 	//	  fds.wfd=fds.rfd;
 
 	void waitKey() {
-		char c;
+		//char c;
 		System.out.println("Press return to continue.\n");
 		//		System.in.read(c,1);
 	}

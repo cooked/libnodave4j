@@ -29,7 +29,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import org.libnodave.*;
+import org.libnodave.Nodave;
+import org.libnodave.PLCinterface;
+import org.libnodave.TCPConnection;
 
 public class TestISO extends Test {
 	static int slot=2;
@@ -54,7 +56,7 @@ public class TestISO extends Test {
 		OutputStream oStream = null;
 		InputStream iStream = null;
 
-		byte[] by;
+		//byte[] by;
 		if (sock != null) {
 			try {
 				oStream = sock.getOutputStream();

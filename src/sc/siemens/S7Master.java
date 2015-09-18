@@ -3,14 +3,14 @@ package sc.siemens;
 import org.libnodave.PLCinterface;
 import org.libnodave.S7Connection;
 
+import com.serotonin.messaging.MessageControl;
+
 import sc.siemens.exception.ErrorResponseException;
 import sc.siemens.exception.S7InitException;
 import sc.siemens.exception.S7TransportException;
 import sc.siemens.locator.BaseLocator;
 import sc.siemens.msg.S7Request;
 import sc.siemens.msg.S7Response;
-
-import com.serotonin.messaging.MessageControl;
 
 abstract public class S7Master extends S7 {
 

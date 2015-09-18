@@ -24,12 +24,11 @@
  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.  
 */
 package org.libnodave.tests;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 
-import org.libnodave.*;
+import org.libnodave.Nodave;
+import org.libnodave.PLCinterface;
+import org.libnodave.S7Connection;
 
 public class Test {
 	int i, j;
@@ -42,7 +41,7 @@ public class Test {
 	Socket sock;
 
 	void waitKey() {
-		char c;
+		//char c;
 		System.out.println("Press return to continue.\n");
 		//		System.in.read(c,1);
 	}

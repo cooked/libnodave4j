@@ -29,9 +29,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+import org.libnodave.NetLinkProConnection;
 import org.libnodave.Nodave;
 import org.libnodave.PLCinterface;
-import org.libnodave.NetLinkProConnection;
 
 public class TestNLP {
 	int i, j;
@@ -44,7 +44,7 @@ public class TestNLP {
 	Socket sock;
 
 	void waitKey() {
-		char c;
+		//char c;
 		System.out.println("Press return to continue.\n");
 		//		System.in.read(c,1);
 	}

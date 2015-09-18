@@ -3,13 +3,13 @@ package sc.siemens.base;
 import org.libnodave.Nodave;
 import org.libnodave.S7Connection;
 
+import com.serotonin.util.queue.ByteQueue;
+
 import sc.siemens.code.DataType;
 import sc.siemens.exception.IllegalSlaveIdException;
 import sc.siemens.exception.S7IdException;
 import sc.siemens.exception.S7TransportException;
 import sc.siemens.locator.BinaryLocator;
-
-import com.serotonin.util.queue.ByteQueue;
 
 public class S7Utils {
 	

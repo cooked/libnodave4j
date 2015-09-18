@@ -20,11 +20,11 @@
  */
 package sc.siemens.serial.ppi;
 
-import sc.siemens.exception.S7InitException;
-import sc.siemens.serial.SerialMaster;
-
 import com.serotonin.io.serial.SerialParameters;
 import com.serotonin.messaging.MessageControl;
+
+import sc.siemens.exception.S7InitException;
+import sc.siemens.serial.SerialMaster;
 
 abstract public class PPIMaster extends SerialMaster {
     // Runtime fields.

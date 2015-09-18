@@ -20,10 +20,10 @@
  */
 package sc.siemens.ip;
 
-import sc.siemens.msg.S7Response;
-
 import com.serotonin.messaging.IncomingResponseMessage;
 import com.serotonin.messaging.OutgoingResponseMessage;
+
+import sc.siemens.msg.S7Response;
 
 public interface IpMessageResponse extends OutgoingResponseMessage, IncomingResponseMessage {
     S7Response getModbusResponse();

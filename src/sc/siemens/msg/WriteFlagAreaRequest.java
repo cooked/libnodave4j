@@ -29,7 +29,8 @@ public class WriteFlagAreaRequest extends S7Request {
 	
     private int 	startOffset;
     private int 	bit;
-    private boolean value;
+    @SuppressWarnings("unused")
+	private boolean value;
     
 
     public WriteFlagAreaRequest(int slaveId, byte areaNr, int startOffset, int bit, boolean value) throws S7TransportException {
